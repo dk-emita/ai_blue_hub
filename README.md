@@ -1,25 +1,32 @@
 # AI Blue Hub
 
-**Android için video ve müzik indirme uygulaması · Sürüm 2.2.0**
+**Android için video ve müzik indirme uygulaması**
 
-AI Blue Hub, desteklenen video bağlantılarını analiz eder; kaynağın sunduğu video ve ses seçeneklerini tek bir mavi arayüzde gösterir. İndirilen dosyalar, telefonunuzda platforma ve içerik türüne göre düzenlenir.
+AI Blue Hub, desteklenen video bağlantılarını analiz ederek kaynağın sunduğu video ve ses seçeneklerini mavi bir arayüzde gösterir. İndirilen dosyaları telefonunuzda platforma ve içerik türüne göre düzenler.
 
-[**Android APK’sını indir — 2.2.0**](https://github.com/dk-emita/ai_blue_hub/releases/download/v2.2.0/AI-Blue-Hub-2.2.0.apk) · [Sürüm sayfası](https://github.com/dk-emita/ai_blue_hub/releases/tag/v2.2.0)
+[**Güncel Android sürümünü indir**](https://github.com/dk-emita/ai_blue_hub/releases/latest) · [Tüm sürümler](https://github.com/dk-emita/ai_blue_hub/releases)
 
 ## Özellikler
 
-- **Bağlantı analizi:** Video başlığı, küçük resim, süre ve indirilebilir biçimleri görüntüleyin.
-- **Video ve ses seçenekleri:** Bağlantının sunduğu video kalitelerinden seçim yapın veya sesi MP3 olarak kaydedin.
-- **Android paylaş menüsü:** Bir uygulamada bağlantıyı paylaşırken AI Blue Hub’ı seçin; uygulama açılır ve bağlantının analizi başlar.
+- **Bağlantı analizi:** Video başlığını, küçük resmini, süresini ve indirilebilir biçimlerini görüntüleyin.
+- **Video ve ses seçenekleri:** Kaynağın sunduğu video kalitelerinden seçim yapın; mevcut ses biçimlerini indirin veya sesi MP3 olarak kaydedin.
+- **Android paylaş menüsü:** Başka bir uygulamada bağlantıyı paylaşırken AI Blue Hub’ı seçin. Uygulama açılır ve paylaşılan bağlantı analiz edilir.
 - **İndirme ilerlemesi ve iptal:** İndirme durumunu takip edin ve devam eden indirmeyi iptal edin.
-- **Düzenli klasörler:** Dosyaları bağlantı kaynağına göre platform klasörlerine; video ve sesleri ayrı alt klasörlere kaydedin.
-- **Okunaklı dosya adları:** Video başlığını esas alan, gereksiz ayırıcıları temizlenmiş dosya adları oluşturun. Türkçe ve İngilizce başlık düzenleme desteğinden yararlanın.
+- **Düzenli klasörler:** Dosyaları bağlantının kaynağına göre platform klasörlerine, video ve sesleri ayrı alt klasörlere kaydedin.
+- **Okunaklı dosya adları:** Video başlığını esas alan, gereksiz ayırıcıları temizlenmiş adlar oluşturun. Türkçe ve İngilizce başlık düzenleme desteğinden yararlanın.
 - **Telefon içinde işleme:** Bağlantı analizi ve medya indirme motoru Android uygulamasının içinde çalışır.
-- **Güncelleme bildirimi:** Yeni sürüm yayımlandığında uygulama içindeki güncelleme penceresinden indirme sayfasına ulaşın.
+- **Güncelleme bildirimi:** Yeni sürüm yayımlandığında uygulama içindeki güncelleme penceresinden GitHub indirme sayfasına ulaşın.
 
 Kullanılabilen biçimler ve kalite seçenekleri, bağlantının kaynağına ve içeriğin erişilebilirliğine göre değişir.
 
-## İndirilen dosyalar
+## Nasıl kullanılır?
+
+1. Videonun bağlantısını uygulamaya yapıştırın veya Android paylaş menüsünden AI Blue Hub’a gönderin.
+2. Analiz sonucundaki video veya ses biçimini seçin.
+3. İndirmeyi başlatın ve ilerlemeyi uygulamadan takip edin.
+4. Tamamlanan dosyayı ilgili platformun **Video** veya **Music** klasöründe bulun.
+
+## Dosyalar nereye kaydedilir?
 
 ```text
 İndirilenler/
@@ -31,24 +38,19 @@ Kullanılabilen biçimler ve kalite seçenekleri, bağlantının kaynağına ve 
 
 Bağlantı kaynağına göre YouTube, Instagram, Facebook, X, NSosyal, TikTok, Reddit, Pinterest, Threads, Snapchat ve LinkedIn klasörleri kullanılır. Bu grupların dışındaki kaynaklar **Diğer** klasörüne kaydedilir.
 
-## Kullanım
+## Kurulum ve güncelleme
 
-1. Videonun bağlantısını uygulamaya yapıştırın veya Android paylaş menüsünden AI Blue Hub’a gönderin.
-2. Analiz sonucundaki video veya ses biçimini seçin.
-3. İndirmeyi başlatın ve ilerlemeyi uygulamadan takip edin.
-4. Tamamlanan dosyayı ilgili platformun **Video** veya **Music** klasöründe bulun.
+1. [Güncel sürüm sayfasını](https://github.com/dk-emita/ai_blue_hub/releases/latest) açın.
+2. Sürümün dosyaları arasından **APK** dosyasını indirin.
+3. Dosyayı Android telefonunuzda açın ve sistemin kurulum adımlarını tamamlayın.
+4. AI Blue Hub’ı açarak bağlantınızı analiz edin.
 
-## Kurulum
+Sonraki sürümlerde, uygulamanın gösterdiği güncelleme penceresinden aynı indirme sayfasına ulaşabilirsiniz. APK kurulumu Android’in kurulum ekranında tamamlanır.
 
-1. Yukarıdaki bağlantıdan **AI-Blue-Hub-2.2.0.apk** dosyasını indirin.
-2. APK’yı Android telefonunuzda açın ve sistemin kurulum adımlarını tamamlayın.
-3. AI Blue Hub’ı açarak bağlantınızı analiz edin.
-
-| Bilgi | Değer |
+| Gereksinim | Bilgi |
 | --- | --- |
-| Güncel Android sürümü | 2.2.0 |
-| Paket kimliği | `com.meliksahaviation.aibluehub` |
-| Android gereksinimi | Android 7.0 ve üzeri |
+| İşletim sistemi | Android 7.0 ve üzeri |
 | İşlemci | ARM64 |
+| Paket kimliği | `com.meliksahaviation.aibluehub` |
 
-Bu depo, uygulamanın APK dosyalarını ve sürüm bilgilerini dağıtmak için kullanılır.
+Bu depo, AI Blue Hub’ın APK dosyalarını, sürüm notlarını ve kullanıcı belgelerini dağıtmak için kullanılır.
